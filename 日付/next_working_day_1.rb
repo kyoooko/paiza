@@ -89,7 +89,7 @@ case d  when "MON"
 end
 
 # ===============================================================-
-# <解答>
+# ❓<解答>
 # END_OF_MONTH = [
 #   [1, 31],
 #   [2, 28],
@@ -133,6 +133,7 @@ end
 # d = day.to_i
 # day_of_week = WEEK_DAYS[week_day]
 
+❓
 # begin
 #   m, d, day_of_week = next_day(m, d, day_of_week)
 # end until day_of_week < 5
