@@ -18,19 +18,19 @@ end
 
 puts sum
 # ==========================================
-# <解答>
-count = gets.chomp.to_i
-sum = 0
+# <解答(微妙)>
+# count = gets.chomp.to_i
+# sum = 0
 
-(1..count).each { |i|
-    line = gets.chomp.split(" ")
-    if line[0].to_i == line[1].to_i
-        sum += line[0].to_i * line[1].to_i
-    else
-        sum += line[0].to_i + line[1].to_i
-    end
-}
-puts sum
+# (1..count).each { |i|
+#     line = gets.chomp.split(" ")
+#     if line[0].to_i == line[1].to_i
+#         sum += line[0].to_i * line[1].to_i
+#     else
+#         sum += line[0].to_i + line[1].to_i
+#     end
+# }
+# puts sum
 
 # →eachで回してi使ってないのでtimesの方がスマートだと思う
 
