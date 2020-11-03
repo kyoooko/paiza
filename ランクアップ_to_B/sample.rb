@@ -30,3 +30,6 @@ hash = {}
 p hash[30] = "kato"   #=>"kato"
 p hash[30]  #=>"kato"
 p hash #=>{30=>"kato"}
+
+
+
